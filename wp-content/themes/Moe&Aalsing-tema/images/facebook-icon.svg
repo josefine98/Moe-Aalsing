@@ -1,0 +1,19 @@
+<svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_114_3508)">
+<path d="M49 22.5C49 10.0702 38.9214 0 26.5 0C14.0702 0 4 10.0702 4 22.5C4 33.7275 12.2252 43.0369 22.9844 44.723V29.0053H17.2708V22.5014H22.9844V17.5416C22.9844 11.9039 26.3383 8.79047 31.4795 8.79047C33.9419 8.79047 36.5195 9.22922 36.5195 9.22922V14.7656H33.6775C30.8875 14.7656 30.0156 16.5023 30.0156 18.2812V22.5H36.2552L35.2525 29.0039H30.0156V44.7216C40.7664 43.0355 49 33.7261 49 22.4986V22.5Z" fill="#343434"/>
+</g>
+<defs>
+<filter id="filter0_d_114_3508" x="0" y="0" width="53" height="52.723" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_114_3508"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_114_3508" result="shape"/>
+</filter>
+</defs>
+</svg>
+
+<!--Icon fra Figma plugin Iconduck,  Creative Commons Attribution 4.0 International, https://iconduck.com/icons/11044/facebook-->

@@ -1,0 +1,130 @@
+2023-05-24T12:12:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function YIKES_Custom_Product_Tabs_Display::custom_product_tabs_panel_content(), 1 passed in /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/themes/Moe&Aalsing-tema/woocommerce/single-product/tabs/tabs.php on line 47 and exactly 2 expected in /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/yikes-inc-easy-custom-woocommerce-product-tabs/public/class.yikes-woo-tabs-display.php:107
+Stack trace:
+#0 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/themes/Moe&Aalsing-tema/woocommerce/single-product/tabs/tabs.php(47): YIKES_Custom_Product_Tabs_Display->custom_product_tabs_panel_content(Array)
+#1 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Users/josefine...')
+#2 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1621): wc_get_template('single-product/...')
+#3 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/class-wp-hook.php(308): woocommerce_output_product_data_tabs('')
+#4 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/themes/Moe&Aalsing-tema/woocommerce/content-single-product.php(96): do_action('woocommerce_aft...')
+#7 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/template.php(785): require('/Users/josefine...')
+#8 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/josefine...', false)
+#9 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(598): wc_get_template_part('content', 'single-product')
+#10 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/shortcodes.php(355): WC_Shortcodes::product_page(Array, '', 'product_page')
+#11 [internal function]: do_shortcode_tag(Array)
+#12 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_page i...')
+#13 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/class-wc-template-loader.php(634): do_shortcode('[product_page i...')
+#14 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/class-wp-hook.php(308): WC_Template_Loader::unsupported_theme_product_content_filter('<p>Super flot b...')
+#15 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<p>Super flot b...', Array)
+#16 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/post-template.php(255): apply_filters('the_content', 'Super flot blaz...')
+#17 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/themes/Moe&Aalsing-tema/single.php(8): the_content()
+#18 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/template-loader.php(106): include('/Users/josefine...')
+#19 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-blog-header.php(19): require_once('/Users/josefine...')
+#20 /Users/josefine/Local Sites/moeaalsingdev/app/public/index.php(17): require('/Users/josefine...')
+#21 {main}
+  thrown i /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/yikes-inc-easy-custom-woocommerce-product-tabs/public/class.yikes-woo-tabs-display.php på linje 107
+
+2023-05-24T12:12:39+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function YIKES_Custom_Product_Tabs_Display::custom_product_tabs_panel_content(), 1 passed in /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/themes/Moe&Aalsing-tema/woocommerce/single-product/tabs/tabs.php on line 47 and exactly 2 expected in /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/yikes-inc-easy-custom-woocommerce-product-tabs/public/class.yikes-woo-tabs-display.php:107
+Stack trace:
+#0 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/themes/Moe&Aalsing-tema/woocommerce/single-product/tabs/tabs.php(47): YIKES_Custom_Product_Tabs_Display->custom_product_tabs_panel_content(Array)
+#1 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Users/josefine...')
+#2 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1621): wc_get_template('single-product/...')
+#3 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/class-wp-hook.php(308): woocommerce_output_product_data_tabs('')
+#4 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/themes/Moe&Aalsing-tema/woocommerce/content-single-product.php(96): do_action('woocommerce_aft...')
+#7 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/template.php(785): require('/Users/josefine...')
+#8 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/josefine...', false)
+#9 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(598): wc_get_template_part('content', 'single-product')
+#10 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/shortcodes.php(355): WC_Shortcodes::product_page(Array, '', 'product_page')
+#11 [internal function]: do_shortcode_tag(Array)
+#12 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_page i...')
+#13 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/class-wc-template-loader.php(634): do_shortcode('[product_page i...')
+#14 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/class-wp-hook.php(308): WC_Template_Loader::unsupported_theme_product_content_filter('<p>Super flot b...')
+#15 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<p>Super flot b...', Array)
+#16 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/post-template.php(255): apply_filters('the_content', 'Super flot blaz...')
+#17 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/themes/Moe&Aalsing-tema/single.php(8): the_content()
+#18 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/template-loader.php(106): include('/Users/josefine...')
+#19 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-blog-header.php(19): require_once('/Users/josefine...')
+#20 /Users/josefine/Local Sites/moeaalsingdev/app/public/index.php(17): require('/Users/josefine...')
+#21 {main}
+  thrown i /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/yikes-inc-easy-custom-woocommerce-product-tabs/public/class.yikes-woo-tabs-display.php på linje 107
+
+2023-05-24T12:12:42+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function YIKES_Custom_Product_Tabs_Display::custom_product_tabs_panel_content(), 1 passed in /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/themes/Moe&Aalsing-tema/woocommerce/single-product/tabs/tabs.php on line 47 and exactly 2 expected in /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/yikes-inc-easy-custom-woocommerce-product-tabs/public/class.yikes-woo-tabs-display.php:107
+Stack trace:
+#0 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/themes/Moe&Aalsing-tema/woocommerce/single-product/tabs/tabs.php(47): YIKES_Custom_Product_Tabs_Display->custom_product_tabs_panel_content(Array)
+#1 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Users/josefine...')
+#2 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1621): wc_get_template('single-product/...')
+#3 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/class-wp-hook.php(308): woocommerce_output_product_data_tabs('')
+#4 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/themes/Moe&Aalsing-tema/woocommerce/content-single-product.php(96): do_action('woocommerce_aft...')
+#7 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/template.php(785): require('/Users/josefine...')
+#8 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/josefine...', false)
+#9 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(598): wc_get_template_part('content', 'single-product')
+#10 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/shortcodes.php(355): WC_Shortcodes::product_page(Array, '', 'product_page')
+#11 [internal function]: do_shortcode_tag(Array)
+#12 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_page i...')
+#13 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/class-wc-template-loader.php(634): do_shortcode('[product_page i...')
+#14 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/class-wp-hook.php(308): WC_Template_Loader::unsupported_theme_product_content_filter('<p>Super flot b...')
+#15 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<p>Super flot b...', Array)
+#16 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/post-template.php(255): apply_filters('the_content', 'Super flot blaz...')
+#17 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/themes/Moe&Aalsing-tema/single.php(8): the_content()
+#18 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/template-loader.php(106): include('/Users/josefine...')
+#19 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-blog-header.php(19): require_once('/Users/josefine...')
+#20 /Users/josefine/Local Sites/moeaalsingdev/app/public/index.php(17): require('/Users/josefine...')
+#21 {main}
+  thrown i /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/yikes-inc-easy-custom-woocommerce-product-tabs/public/class.yikes-woo-tabs-display.php på linje 107
+
+2023-05-24T12:12:49+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function YIKES_Custom_Product_Tabs_Display::custom_product_tabs_panel_content(), 1 passed in /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/themes/Moe&Aalsing-tema/woocommerce/single-product/tabs/tabs.php on line 47 and exactly 2 expected in /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/yikes-inc-easy-custom-woocommerce-product-tabs/public/class.yikes-woo-tabs-display.php:107
+Stack trace:
+#0 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/themes/Moe&Aalsing-tema/woocommerce/single-product/tabs/tabs.php(47): YIKES_Custom_Product_Tabs_Display->custom_product_tabs_panel_content(Array)
+#1 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Users/josefine...')
+#2 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1621): wc_get_template('single-product/...')
+#3 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/class-wp-hook.php(308): woocommerce_output_product_data_tabs('')
+#4 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/themes/Moe&Aalsing-tema/woocommerce/content-single-product.php(96): do_action('woocommerce_aft...')
+#7 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/template.php(785): require('/Users/josefine...')
+#8 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/josefine...', false)
+#9 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(598): wc_get_template_part('content', 'single-product')
+#10 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/shortcodes.php(355): WC_Shortcodes::product_page(Array, '', 'product_page')
+#11 [internal function]: do_shortcode_tag(Array)
+#12 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_page i...')
+#13 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/class-wc-template-loader.php(634): do_shortcode('[product_page i...')
+#14 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/class-wp-hook.php(308): WC_Template_Loader::unsupported_theme_product_content_filter('<p>Super flot b...')
+#15 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<p>Super flot b...', Array)
+#16 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/post-template.php(255): apply_filters('the_content', 'Super flot blaz...')
+#17 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/themes/Moe&Aalsing-tema/single.php(8): the_content()
+#18 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/template-loader.php(106): include('/Users/josefine...')
+#19 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-blog-header.php(19): require_once('/Users/josefine...')
+#20 /Users/josefine/Local Sites/moeaalsingdev/app/public/index.php(17): require('/Users/josefine...')
+#21 {main}
+  thrown i /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/yikes-inc-easy-custom-woocommerce-product-tabs/public/class.yikes-woo-tabs-display.php på linje 107
+
+2023-05-24T12:13:13+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function YIKES_Custom_Product_Tabs_Display::custom_product_tabs_panel_content(), 1 passed in /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/themes/Moe&Aalsing-tema/woocommerce/single-product/tabs/tabs.php on line 47 and exactly 2 expected in /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/yikes-inc-easy-custom-woocommerce-product-tabs/public/class.yikes-woo-tabs-display.php:107
+Stack trace:
+#0 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/themes/Moe&Aalsing-tema/woocommerce/single-product/tabs/tabs.php(47): YIKES_Custom_Product_Tabs_Display->custom_product_tabs_panel_content(Array)
+#1 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Users/josefine...')
+#2 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1621): wc_get_template('single-product/...')
+#3 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/class-wp-hook.php(308): woocommerce_output_product_data_tabs('')
+#4 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/themes/Moe&Aalsing-tema/woocommerce/content-single-product.php(96): do_action('woocommerce_aft...')
+#7 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/template.php(785): require('/Users/josefine...')
+#8 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/josefine...', false)
+#9 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(598): wc_get_template_part('content', 'single-product')
+#10 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/shortcodes.php(355): WC_Shortcodes::product_page(Array, '', 'product_page')
+#11 [internal function]: do_shortcode_tag(Array)
+#12 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_page i...')
+#13 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/woocommerce/includes/class-wc-template-loader.php(634): do_shortcode('[product_page i...')
+#14 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/class-wp-hook.php(308): WC_Template_Loader::unsupported_theme_product_content_filter('<p>Super flot b...')
+#15 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<p>Super flot b...', Array)
+#16 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/post-template.php(255): apply_filters('the_content', 'Super flot blaz...')
+#17 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/themes/Moe&Aalsing-tema/single.php(8): the_content()
+#18 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-includes/template-loader.php(106): include('/Users/josefine...')
+#19 /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-blog-header.php(19): require_once('/Users/josefine...')
+#20 /Users/josefine/Local Sites/moeaalsingdev/app/public/index.php(17): require('/Users/josefine...')
+#21 {main}
+  thrown i /Users/josefine/Local Sites/moeaalsingdev/app/public/wp-content/plugins/yikes-inc-easy-custom-woocommerce-product-tabs/public/class.yikes-woo-tabs-display.php på linje 107
+
